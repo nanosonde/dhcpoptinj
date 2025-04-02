@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.0)
 # Allow setting PROJECT_VERSION through project():
 cmake_policy(SET CMP0048 NEW)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # Don't bother writing the project name all the time:
 set(PROJECT dhcpoptinj)
 
