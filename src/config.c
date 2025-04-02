@@ -165,7 +165,7 @@ struct Config *conf_parseOpts(int argc, char *const *argv)
    validateOptionCombinations();
 
    /* dhcpoptinj does not accept any arguments, only options: */
-   if (argc - optind > 0)
+   if (argc > optind)
    {
       fputs("No non-option arguments expected, but the following was passed: ", stderr);
       for (int i = optind; i < argc; ++i)
