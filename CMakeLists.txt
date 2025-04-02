@@ -83,7 +83,7 @@ endif()
 find_library(NFQ_LIB netfilter_queue REQUIRED)
 target_link_libraries(${PROJECT} ${NFQ_LIB})
 
-install(TARGETS ${PROJECT} DESTINATION sbin)
+install(TARGETS ${PROJECT} DESTINATION bin)
 # Add uninstall target, since cmake does not:
 configure_file(
 	"${CMAKE_CURRENT_SOURCE_DIR}/cmake_uninstall.cmake.in"
