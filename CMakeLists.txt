@@ -70,9 +70,6 @@ target_compile_options(${PROJECT} PRIVATE
 	-Wswitch-enum
 	-Waddress
 	-Wnull-dereference
-	-D_POSIX_SOURCE
-	-D_DEFAULT_SOURCE
-	-D_FORTIFY_SOURCE=2
 	)
 # Only add -Wlogical-op if using gcc; clang does not support this warning option:
 if (CMAKE_C_COMPILER_ID STREQUAL "GNU")
