@@ -1,5 +1,5 @@
 # DHCP option injector
-[![Build Status](https://github.com/nanosonde/dhcpoptinj/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/nanosonde/dhcpoptinj/actions/workflows/cmake-multi-platform.yml/badge.svg)
+[![Build Status](https://github.com/nanosonde/dhcpoptinj/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/nanosonde/dhcpoptinj/actions/workflows/cmake-multi-platform.yml)
 
 Have you ever wanted to intercept DHCP requests and squeeze in a few extra DHCP
 options, unbeknownst to the sender? Probably not. However, should the need ever
